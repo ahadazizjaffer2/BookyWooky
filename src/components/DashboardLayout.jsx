@@ -19,7 +19,7 @@ export const DashboardLayout = ({ children }) => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               {/* <span className="text-xl font-semibold">BookyWooky</span> */}
-              <img src="https://i.ibb.co/7ngJ21G/logo.png" className="h-12" alt="" />
+              <img src="https://i.ibb.co/DY04gnt/logo.png" className="h-12" alt="" />
             </div>
             <div className="flex items-center">
               <span className="mr-4 text-gray-600">

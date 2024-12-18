@@ -30,7 +30,7 @@ export const SignupForm = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
         <div className="flex items-center justify-center mb-8">
-        <img src="https://i.ibb.co/7ngJ21G/logo.png" className="h-18" alt="" />
+        <img src="https://i.ibb.co/DY04gnt/logo.png" className="h-18" alt="" />
         </div>
         <h2 className="text-2xl font-bold text-center mb-6">Sign Up</h2>
         {error && (
