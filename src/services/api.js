@@ -1,41 +1,7 @@
-// import axios from 'axios';
-
-// const API_URL = 'https://librarymanagementbe.azurewebsites.net/api'; // Replace with your actual API URL
-
-// const api = axios.create({
-//   baseURL: API_URL,
-// });
-
-// export const authService = {
-//   login: async (credentials) => {
-//     // This is a mock implementation. Replace with actual API call
-//     return new Promise((resolve) => {
-//       setTimeout(() => {
-//         // Simulating the response structure
-//         const response = {
-//           token: 'mock-jwt-token',  // Mock token
-//           userId: 5,               // Example user ID
-//           role: 'Customer',        // Role is directly received in response
-//         };
-
-//         resolve(response);  // Resolving the mock response
-//       }, 1000);  // Simulate 1 second delay for the mock request
-//     });
-//   },
-
-//   signup: async (credentials) => {
-//     // This is a mock implementation. Replace with actual API call
-//     return new Promise((resolve) => {
-//       setTimeout(resolve, 1000);
-//     });
-//   },
-// };
-
-
 import axios from 'axios';
 import { useAuthStore } from '../store/authStore'; // Import the Zustand store
 
-const API_URL = 'https://127.0.0.1:7098/api/auth'; // API URL for login and signup
+const API_URL = 'https://librarymanagementbe.azurewebsites.net/api/auth'; // API URL for login and signup
 
 const api = axios.create({
   baseURL: API_URL,
